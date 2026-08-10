@@ -1,5 +1,7 @@
 {
-  "name": "Stockify Soufian",
+  "name": "stockify-soufian",
+  "version": "1.0.0",
+  "description": "Stockify Android Wrapper",
   "dependencies": {
     "@capacitor/android": "latest",
     "@capacitor/camera": "latest",
