@@ -1,0 +1,11 @@
+{
+  "name": "Stockify Soufian",
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/camera": "latest",
+    "@capacitor/cli": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/filesystem": "latest",
+    "@capacitor/share": "latest"
+  }
+}
