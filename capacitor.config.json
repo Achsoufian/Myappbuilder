@@ -1,0 +1,28 @@
+{
+  "appId": "com.soufian.stockify",
+  "appName": "Stockify Soufian",
+  "webDir": "www",
+  "server": {
+    "url": "https://stockifysoufian.netlify.app",
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 800,
+      "backgroundColor": "#4361ee",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#4361ee",
+      "overlaysWebView": false
+    }
+  }
+}
