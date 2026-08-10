@@ -22,6 +22,13 @@ jobs:
           touch www/index.html
           npx cap add android
           
+      - name: Generate Custom Icon
+        run: |
+          npm install -g @capacitor/assets
+          mkdir assets
+          curl -s https://stockifysoufian.netlify.app/icon-512.png -o assets/icon.png
+          npx capacitor-assets generate --android
+          
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
